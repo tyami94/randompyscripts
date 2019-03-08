@@ -10,6 +10,7 @@ Files:
   16384bittest.txt: contains a 16384-bit integer that acts as an integrity check. This should return a perfectly alternating pattern of '...01010101...' with no similar digit adjacent to another. This verifies that working values are not being truncated, because if the working values were truncated, the pattern would not repeat. It would just become psuedo-random.
     
 Variables:
+
   i = Input Decimal
   
   a\[v\] = Output Array

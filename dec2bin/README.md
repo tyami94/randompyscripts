@@ -9,7 +9,7 @@ Files:
   dec2binverbose.py: Standalone dec2bin with verbosity. This code is pretty much impossible to comment due to it's highly esoteric nature, so this explains what is happening as it happens.
   16384bittest.txt: contains a 16384-bit integer that acts as an integrity check. This should return a perfectly alternating pattern of '...01010101...' with no similar digit adjacent to another. This verifies that working values are not being truncated, because if the working values were truncated, the pattern would not repeat. It would just become psuedo-random.
     
-Variables:
+#Variables:
 
   i = Input Decimal
   

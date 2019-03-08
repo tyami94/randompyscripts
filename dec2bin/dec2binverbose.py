@@ -33,7 +33,7 @@ print("Integer:", temp)     #Prints result.
 print()
 print("Binary: ", end='')
 for c in a:
- print(a[c-1], end='')
+ print(c, end='')
 print()
 print()
 print("List: ", a)

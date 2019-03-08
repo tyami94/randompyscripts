@@ -31,6 +31,8 @@ for x in range(v-1,-1,-1):  #Substracts 2^x from i every cycle. If y<0, position
  print()
 print("Integer:", temp)     #Prints result.
 print()
+print("Data Type: "+str(v)+"-bit integer")
+print()
 print("Binary: ", end='')
 for c in a:
  print(c, end='')

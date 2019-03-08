@@ -21,6 +21,8 @@ for x in range(v-1,-1,-1):
   i=y
 print("Integer:", temp)
 print()
+print("Data Type: "+str(v)+"-bit integer")
+print()
 print("Binary: ", end='')
 for c in a:
  print(c, end='')
